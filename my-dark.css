@@ -90,7 +90,7 @@
 
 .cm-s-inner.CodeMirror, .cm-s-inner .CodeMirror-gutters {
     background-color: #282a36 !important;
-    color: #f8f8f2 !important;
+    color: #f8f8f263 !important;
     border: none;
 }
 
@@ -100,7 +100,7 @@
 }
 
 .cm-s-inner .CodeMirror-cursor {
-    border-left: solid thin #f8f8f2 !important;
+    border-left: solid thin #ffffff46 !important;
 }
 
 .cm-s-inner .CodeMirror-linenumber {
@@ -176,6 +176,7 @@
 
 .cm-s-inner span.cm-variable-3, .cm-s-inner span.cm-type {
     color: #ffb86c;
+    font-style: italic;
 }
 
 .md-fences.md-focus .cm-s-inner .CodeMirror-activeline-background {
