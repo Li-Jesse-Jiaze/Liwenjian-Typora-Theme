@@ -76,6 +76,20 @@
     src: local("Fira Mono Bold"), url("./Liwenjian/FiraMono-Bold.ttf") format("ttf");
 }
 
+@font-face {
+    font-family: 'Operator Mono';
+    font-style: normal;
+    font-weight: normal;
+    src: local("Operator Mono Regular"), url("./Liwenjian/OperatorMono-Medium.otf") format("otf");
+}
+
+@font-face {
+    font-family: 'Operator Mono';
+    font-style: italic;
+    font-weight: normal;
+    src: local("Operator Mono Italic"), url("./Liwenjian/OperatorMono-MediumItalic.otf") format("otf");
+}
+
 /* CodeMirror Dracula theme */
 .cm-s-inner {
     padding: .25rem;
