@@ -1,6 +1,6 @@
 # Liwenjian-Typora-Theme
 
-<img src="screenshot.png"  />
+<img src="screenshot.png" style="zoom: 25%;" />
 
 最好自己先装好`Operator Mono`字体
 
