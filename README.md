@@ -1,5 +1,7 @@
 # Liwenjian-Typora-Theme
 
+<img src="screenshot.png"  />
+
 最好自己先装好`Operator Mono`字体
 
 将`my-dark.css`文件和`Liwenjian`文件夹直接拷贝到Typora主题文件夹，并重启Typora即可
