@@ -79,10 +79,13 @@
 /* CodeMirror Dracula theme */
 .cm-s-inner {
     padding: .25rem;
-    border: 2px solid #ffffff26 !important;
+    /* border: 2px solid #ffffff26 !important; */
     border-radius: .25rem;
     font-family: Operator Mono, Menlo, Monaco, 'Courier New', monospace;
     font-weight: 350;
+    width: 90%;
+    left: 50%;
+    transform: translate(-50%);
 }
 
 .cm-s-inner.CodeMirror, .cm-s-inner .CodeMirror-gutters {
@@ -1238,7 +1241,7 @@ footer.ty-footer {
 }
 
 #write > p:only-child:empty::before {
-    content: '\D\A\D\A\D\A\D\A\D\A *@@@@*    *@@@@*     @     *@@@*   *@@@@*\D\A   @@        *@@     m@@     m@       @@  \D\A   @@         @@m   m@@@m   m@        @@  \D\A   @@          @@m  @* @@m  @*        @@  \D\A   @!     m    !@@ @*  *@@ @*         @@  \D\A   @!    :@     !@@m    !@@m     @@!  @@  \D\A   !!     !     !!@!*   !!@!*         !!  \D\A   !:    !!     !!!!    !!!!     !!!  !!  \D\A : :: !: :       :       :        :!: :\D\A \D\A \D\A   3...2...1...Let\'s GO!        ';
+    content: '\D\A\D\A\D\A\D\A\D\A *@@@@*    *@@@@*     @     *@@@*   *@@@@*\D\A   @@        *@@     m@@     m@       @@  \D\A   @@         @@m   m@@@m   m@        @@  \D\A   @@          @@m  @* @@m  @*        @@  \D\A   @!     m    !@@ @*  *@@ @*         @@  \D\A   @!    :@     !@@m    !@@m     @@!  @@  \D\A   !!     !     !!@!*   !!@!*         !!  \D\A   !:    !!     !!!!    !!!!     !!!  !!  \D\A : :: !: :       :       :        :!: :\D\A \D\A \D\A 3...2...1...Let\'s GO!';
     font-family: monospace;
     font-size: medium;
     text-align: center;
