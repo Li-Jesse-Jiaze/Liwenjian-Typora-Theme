@@ -148,7 +148,7 @@
 }
 
 .cm-s-inner span.cm-def {
-    color: white;
+    color: #50fa7b;
 }
 
 .cm-s-inner span.cm-operator {
@@ -165,7 +165,7 @@
 }
 
 .cm-s-inner span.cm-meta {
-    color: #f8f8f2;
+    color: #eecf22;
 }
 
 .cm-s-inner span.cm-tag {
