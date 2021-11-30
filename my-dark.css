@@ -114,7 +114,7 @@
   }
 
   .cm-s-inner .CodeMirror-cursor {
-    border-left: solid thin #f8f8f2 !important;
+    border-left: solid rgba(255, 255, 255, 0.6) !important;
   }
 
   .cm-s-inner .CodeMirror-linenumber {
