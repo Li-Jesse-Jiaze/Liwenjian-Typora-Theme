@@ -90,15 +90,15 @@
     --active-file-bg-color: #1e2129;
     --active-file-text-color: inherit;
     --active-file-border-color: #b29261;
-    --active-search-item-bg-color: #181f24;
+    --active-search-item-bg-color: #83be6b;
     --side-bar-bg-color: #f4f4f4;
     --item-hover-bg-color: #ececec;
     --item-hover-text-color: inherit;
     --search-select-text-color: #333;
-    --search-select-bg-color: #e06253;
-    --rawblock-edit-panel-bd: #191d26;
+    --search-select-bg-color: #83be6b;
+    --rawblock-edit-panel-bd: #d0d0d0;
     --monospace: 'Fira Mono', 'Cousine', 'Consolas', monospace;
-    --node-fill: #191d26;
+    --node-fill: #d0d0d0;
     --node-border: #0000001a;
 }
 
@@ -494,12 +494,12 @@ hr {
 }
 
 #write .md-search-hit {
-    background: #db4d5230;
+    background: #83be6b;
     border-radius: .125rem;
 }
 
 #write .md-search-select {
-    background: #db4d5270;
+    background: #437c4e;
     border: 1px solid #9292928f;
     padding: 0 1px;
 }
@@ -748,13 +748,13 @@ hr {
     opacity: .5;
 }
 
-#typora-sidebar {
-    border-right: 1px solid #19191c;
-}
+/*#typora-sidebar {*/
+/*    border-right: 1px solid #19191c;*/
+/*}*/
 
 #typora-sidebar .sidebar-tabs {
     font-family: 'Adelle', 'Times New Roman', serif;
-    border-bottom: 1px solid #19191c;
+    /*border-bottom: 1px solid #19191c;*/
 }
 
 #typora-sidebar .file-list-item-file-name {
@@ -767,7 +767,7 @@ hr {
 }
 
 #typora-sidebar #file-library-search .file-list-item-file-name {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
 }
 
 #typora-sidebar #file-library-search .ty-search-item.active {
@@ -777,12 +777,13 @@ hr {
 #typora-sidebar .file-list-item-summary,
 #typora-sidebar .ty-search-item-line {
     font-family: 'Open Sans', 'Lato', sans-serif;
+    background: #e8e8e8;
 }
 
 #typora-sidebar .ty-file-search-match-text,
 #typora-sidebar .ty-outline-hit {
     font-weight: bold;
-    background: transparent;
+    background: #d0d0d0;
 }
 
 #typora-sidebar #outline-content {
@@ -862,9 +863,9 @@ hr {
     animation: none;
 }
 
-#typora-sidebar #ty-sidebar-footer {
-    border-top: 1px solid #19191c;
-}
+/*#typora-sidebar #ty-sidebar-footer {*/
+/*    border-top: 1px solid #19191c;*/
+/*}*/
 
 #typora-sidebar #ty-sidebar-footer .sidebar-footer-item {
     transition: background .3s;
