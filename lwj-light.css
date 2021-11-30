@@ -1250,6 +1250,10 @@ footer.ty-footer {
     color: #aa759f;
 }
 
+  .cm-s-inner span.cm-builtin {
+    color: #997f60;
+  }
+
 .cm-s-inner span.cm-error {
     background: #f33c3b;
     color: #505050;
