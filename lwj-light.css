@@ -38,42 +38,42 @@
     font-family: 'Adelle';
     font-style: normal;
     font-weight: normal;
-    src: local("Adelle Light"), url("./ursine/Adelle-Light.woff") format("woff");
+    src: local("Adelle Light"), url("./Liwenjian/Adelle-Light.woff") format("woff");
 }
 
 @font-face {
     font-family: 'Adelle';
     font-style: italic;
     font-weight: normal;
-    src: local("Adelle Light Italic"), url("./ursine/Adelle-LightItalic.woff") format("woff");
+    src: local("Adelle Light Italic"), url("./Liwenjian/Adelle-LightItalic.woff") format("woff");
 }
 
 @font-face {
     font-family: 'Adelle';
     font-style: normal;
     font-weight: bold;
-    src: local("Adelle SemiBold"), url("./ursine/Adelle-SemiBold.woff") format("woff");
+    src: local("Adelle SemiBold"), url("./Liwenjian/Adelle-SemiBold.woff") format("woff");
 }
 
 @font-face {
     font-family: 'Adelle';
     font-style: italic;
     font-weight: bold;
-    src: local("Adelle SemiBold Italic"), url("./ursine/Adelle-SemiBoldItalic.woff") format("woff");
+    src: local("Adelle SemiBold Italic"), url("./Liwenjian/Adelle-SemiBoldItalic.woff") format("woff");
 }
 
 @font-face {
     font-family: 'Fira Mono';
     font-style: normal;
     font-weight: normal;
-    src: local("Fira Mono Regular"), url("./ursine/FiraMono-Regular.ttf") format("ttf");
+    src: local("Fira Mono Regular"), url("./Liwenjian/FiraMono-Regular.ttf") format("ttf");
 }
 
 @font-face {
     font-family: 'Fira Mono';
     font-style: normal;
     font-weight: bold;
-    src: local("Fira Mono Bold"), url("./ursine/FiraMono-Bold.ttf") format("ttf");
+    src: local("Fira Mono Bold"), url("./Liwenjian/FiraMono-Bold.ttf") format("ttf");
 }
 
 :root {
@@ -91,14 +91,14 @@
     --active-file-text-color: inherit;
     --active-file-border-color: #b29261;
     --active-search-item-bg-color: #181f24;
-    --side-bar-bg-color: #20202a;
+    --side-bar-bg-color: #f4f4f4;
     --item-hover-bg-color: #ececec;
     --item-hover-text-color: inherit;
     --search-select-text-color: #333;
     --search-select-bg-color: #e06253;
-    --rawblock-edit-panel-bd: #eae9e9;
+    --rawblock-edit-panel-bd: #191d26;
     --monospace: 'Fira Mono', 'Cousine', 'Consolas', monospace;
-    --node-fill: #fbfbfb;
+    --node-fill: #191d26;
     --node-border: #0000001a;
 }
 
@@ -468,7 +468,7 @@ hr {
 
 #write .md-footnote {
     font-family: 'Adelle', 'Times New Roman', serif;
-    font-size: .8em;
+    font-size: 1.2em;
     border: 1px solid #ddd;
     padding: 0 4px;
     background: #f0f0f0;
@@ -685,7 +685,7 @@ hr {
 }
 
 #typora-quick-open .typora-quick-open-item:not(.active):hover {
-    background: #23242b;
+    background: #d0d0d0;
 }
 
 #typora-quick-open .typora-quick-open-item.active:before {
@@ -720,8 +720,8 @@ hr {
 }
 
 .code-tooltip.md-f-tooltip, .code-tooltip.md-f-tooltip .md-arrow::after {
-    background: #222 !important;
-    color: #f0f0f0 !important;
+    background: #d0d0d0 !important;
+    color: #212121 !important;
 }
 
 .code-tooltip.md-f-tooltip a {
@@ -763,7 +763,7 @@ hr {
 }
 
 #typora-sidebar #file-library-search-input {
-    background: #2e3235;
+    background: #d0d0d0;
 }
 
 #typora-sidebar #file-library-search .file-list-item-file-name {
@@ -771,7 +771,7 @@ hr {
 }
 
 #typora-sidebar #file-library-search .ty-search-item.active {
-    background: #23242b;
+    background: #d0d0d0;
 }
 
 #typora-sidebar .file-list-item-summary,
@@ -794,7 +794,7 @@ hr {
 }
 
 #typora-sidebar #outline-content .outline-h1 > .outline-item {
-    padding-left: 0em;
+    padding-left: 0;
 }
 
 #typora-sidebar #outline-content .outline-h2 > .outline-item {
@@ -818,7 +818,7 @@ hr {
 }
 
 #typora-sidebar #outline-content .outline-item:hover {
-    background: #202020;
+    background: #d0d0d0;
 }
 
 #typora-sidebar .outline-title-wrapper,
@@ -843,23 +843,19 @@ hr {
     margin-left: 2px;
 }
 
-#typora-sidebar .file-tree-node .file-tree-node:not(.file-library-file-node) > .file-node-content {
-    font-style: italic;
-}
-
 #typora-sidebar .file-tree-node.file-node-root > .file-node-content {
     font-weight: bold;
-    font-style: italic;
 }
 
 #typora-sidebar .file-tree-node.file-library-file-node:not(.active):hover .file-node-background,
 #typora-sidebar .file-list-item.file-library-node:not(.active):hover {
-    background: #202020;
+    background: #d0d0d0;
 }
 
 #typora-sidebar .file-tree-node.file-library-file-node.active .file-node-background,
 #typora-sidebar .file-list-item.file-library-file-node.active {
     border-left: 5px solid #db4d52;
+    background: #d0d0d0;
 }
 
 #typora-sidebar .blink-area {
@@ -875,19 +871,15 @@ hr {
 }
 
 #typora-sidebar #ty-sidebar-footer .sidebar-footer-item:hover {
-    background: #202020;
-}
-
-#typora-sidebar #ty-sidebar-footer #sidebar-files-menu .menuitem-group-label {
-    font-style: italic;
+    background: #d0d0d0;
 }
 
 #typora-sidebar #ty-sidebar-footer #sidebar-files-menu .show + .menuitem-group-label.show {
-    border-color: #202020;
+    border-color: #d0d0d0;
 }
 
 #typora-sidebar #ty-sidebar-footer #sidebar-files-menu li > a:hover {
-    background: #202020;
+    background: #d0d0d0;
 }
 
 #typora-sidebar #ty-sidebar-footer #sidebar-files-menu .ty-side-sort-btn {
@@ -899,7 +891,7 @@ hr {
 }
 
 #typora-sidebar #ty-sidebar-footer #sidebar-files-menu .ty-side-sort-btn.active {
-    background: #16161a;
+    background: #fbfbfb;
 }
 
 .dropdown-menu:not(.megamenu-menu-list):not(#sidebar-files-menu) {
@@ -1028,12 +1020,12 @@ footer.ty-footer {
 }
 
 .megamenu-menu-header:hover {
-    background: #161819;
+    background: #d0d0d0;
 }
 
 .megamenu-menu-list li:not(.saved) a:not(.active):hover,
 .megamenu-menu-list li a.active {
-    background: #101010 !important;
+    background: #d0d0d0 !important;
 }
 
 #m-saved {
@@ -1121,18 +1113,12 @@ footer.ty-footer {
 }
 
 #write > p:only-child:empty::before {
-    content: '';
+    content: '\D\A\D\A\D\A\D\A\D\A *@@@@*    *@@@@*     @     *@@@*   *@@@@*\D\A   @@        *@@     m@@     m@       @@  \D\A   @@         @@m   m@@@m   m@        @@  \D\A   @@          @@m  @* @@m  @*        @@  \D\A   @!     m    !@@ @*  *@@ @*         @@  \D\A   @!    :@     !@@m    !@@m     @@!  @@  \D\A   !!     !     !!@!*   !!@!*         !!  \D\A   !:    !!     !!!!    !!!!     !!!  !!  \D\A : :: !: :       :       :        :!: :\D\A \D\A \D\A 3...2...1...Let\'s GO!';
+    font-family: monospace;
+    font-size: medium;
+    text-align: center;
+    opacity: 20%;
     display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: url("ursine/night.png") no-repeat 45% 90% transparent;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
 }
 
 @media print {
@@ -1303,7 +1289,7 @@ sup.md-footnote {
 }
 
 #typora-sidebar * {
-    color: #f0f0f0;
+    color: #16161a;
 }
 
 #typora-sidebar * .file-tree-rename-input {
@@ -1311,7 +1297,7 @@ sup.md-footnote {
 }
 
 #typora-sidebar * code {
-    background: #0000001a;
+    background: #d0d0d0;
     border-color: #ffffff26;
 }
 
@@ -1332,7 +1318,3 @@ sup.md-footnote {
     color: #f0f0f0 !important;
 }
 
-#write > p:first-child:not(:only-child)::before, #write > p:only-child::before {
-    background: url("ursine/day.png") no-repeat 55% 90% transparent;
-    background-size: cover;
-}

@@ -239,13 +239,13 @@
     --primary-color: #428bca;
     --primary-btn-border-color: #285e8e;
     --primary-btn-text-color: #ddd;
-    --window-border: 1px solid #1b1b1d;
-    --active-file-bg-color: #1b1b1d;
+    --window-border: 1px solid #192029;
+    --active-file-bg-color: #1e2129;
     --active-file-text-color: inherit;
     --active-file-border-color: #757575;
-    --active-search-item-bg-color: #212121;
-    --side-bar-bg-color: #2b2b2b;
-    --item-hover-bg-color: #2e2e2e;
+    --active-search-item-bg-color: #181f24;
+    --side-bar-bg-color: #1e2022;
+    --item-hover-bg-color: #1e2022;
     --item-hover-text-color: #fff;
     --search-select-text-color: #ddd;
     --search-select-bg-color: #428bca90;
