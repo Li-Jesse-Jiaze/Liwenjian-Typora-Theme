@@ -82,7 +82,7 @@
     --md-char-color: #b19d7b;
     --meta-content-color: #473c32;
     --table-border-color: #d8b77f;
-    --select-text-bg-color: #9abe6b;
+    --select-text-bg-color: rgba(95, 192, 110, 0.6);
     --primary-color: #429b4f;
     --primary-btn-border-color: #4e8d54;
     --side-bar-bg-color: #f4f4f4;
@@ -96,12 +96,16 @@ html, body {
 }
 
 body {
-    color: rgb(51, 51, 51);
     line-height: 1.6;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Adelle', 'Times New Roman', serif;
+}
+
+h6 {
+    opacity: .7;
+    font-size: 18px;
 }
 
 p {
@@ -147,7 +151,6 @@ tt {
 
 code {
     font-size: 16px;
-    /*border: 1px solid #0000001a;*/
     border-radius: .15rem;
     padding: 1px .25rem;
     background: #edd69b;
@@ -156,8 +159,7 @@ code {
 kbd {
     font-family: 'Fira Mono', 'Cousine', 'Consolas', monospace;
     font-size: 16px;
-    border: 2px solid #0000001a;
-    background: #f7f7f7;
+    background: #f4f4f4;
     color: #333;
     box-shadow: none;
 }
@@ -624,6 +626,7 @@ hr {
 
 #write > p:only-child:empty::before {
     content: '\D\A\D\A\D\A\D\A\D\A *@@@@*    *@@@@*     @     *@@@*   *@@@@*\D\A   @@        *@@     m@@     m@       @@  \D\A   @@         @@m   m@@@m   m@        @@  \D\A   @@          @@m  @* @@m  @*        @@  \D\A   @!     m    !@@ @*  *@@ @*         @@  \D\A   @!    :@     !@@m    !@@m     @@!  @@  \D\A   !!     !     !!@!*   !!@!*         !!  \D\A   !:    !!     !!!!    !!!!     !!!  !!  \D\A : :: !: :       :       :        :!: :\D\A \D\A \D\A 3...2...1...Let\'s GO!';
+    color: #007038;
     font-family: monospace;
     font-size: medium;
     text-align: center;
@@ -659,7 +662,7 @@ hr {
 }
 
 .cm-s-inner.CodeMirror {
-    background: #f5f5f5;
+    background: #f4f4f4;
     color: #161c23;
 }
 
@@ -697,7 +700,7 @@ hr {
 }
 
 .cm-s-inner span.cm-comment {
-    color: #8f5536;
+    color: rgba(138, 138, 138, 0.6);
     font-style: italic;
 }
 
@@ -728,6 +731,7 @@ hr {
 
 .cm-s-inner span.cm-variable-2 {
     color: #6a9fb5;
+    font-style: italic;
 }
 
 .cm-s-inner span.cm-def {
