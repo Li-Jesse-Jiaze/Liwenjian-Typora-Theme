@@ -103,11 +103,6 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Adelle', 'Times New Roman', serif;
 }
 
-h6 {
-    opacity: .7;
-    font-size: 18px;
-}
-
 p {
     margin: .5rem 0;
 }
@@ -128,18 +123,19 @@ mark {
 
 blockquote {
     position: relative;
-    margin: 1rem 0 1rem 2rem;
     font-family: 'Adelle', 'Times New Roman', serif;
-    color: #8c6d4e;
+    color: rgb(101, 79, 53);
+    top: 3px;
 }
 
 blockquote::before {
     content: '';
     position: absolute;
-    left: -2rem;
-    height: 100%;
-    width: .25rem;
-    background: #bf9565;
+    left: -120%;
+    top: -6px;
+    height: calc(100% + 6px);
+    width: 300%;
+    background: rgba(191, 149, 101, 0.1);
 }
 
 code,
@@ -153,7 +149,7 @@ code {
     font-size: 16px;
     border-radius: .15rem;
     padding: 1px .25rem;
-    background: #edd69b;
+    background: rgba(191, 149, 101, 0.2);
 }
 
 kbd {
@@ -229,7 +225,6 @@ hr {
 }
 
 #write h1 {
-    font-size: 2.2rem;
     margin: 1rem 0;
 }
 
@@ -239,7 +234,6 @@ hr {
 }
 
 #write h2 {
-    font-size: 1.9rem;
     margin: .7rem 0;
 }
 
@@ -249,7 +243,6 @@ hr {
 }
 
 #write h3 {
-    font-size: 1.5rem;
     margin: .5rem 0;
 }
 
@@ -259,7 +252,6 @@ hr {
 }
 
 #write h4 {
-    font-size: 1.4rem;
     margin: .2rem 0;
 }
 
@@ -269,7 +261,6 @@ hr {
 }
 
 #write h5, #write h6 {
-    font-size: 1.3rem;
     margin: 0;
 }
 
@@ -279,7 +270,6 @@ hr {
 
 #write h6::before {
     content: 'H6';
-    opacity: 0.7;
 }
 
 #write > h1.md-focus::before,
@@ -650,15 +640,12 @@ hr {
 }
 
 .cm-s-inner {
-    padding: .25rem;
+    padding: 0 8% 0 8%;
     /*border: 1px solid #0000001a !important;*/
     border-radius: .25rem;
     font-family: Operator Mono, Menlo, Monaco, 'Courier New', monospace;
     font-size: 16px;
     font-weight: 350;
-    width: 90%;
-    left: 50%;
-    transform: translate(-50%);
 }
 
 .cm-s-inner.CodeMirror {
@@ -700,7 +687,7 @@ hr {
 }
 
 .cm-s-inner span.cm-comment {
-    color: rgba(138, 138, 138, 0.6);
+    color: rgba(0, 0, 0, 0.45);
     font-style: italic;
 }
 
