@@ -271,7 +271,6 @@ h1, h2, h3, h4, h5, h6 {
 
 h6 {
     opacity: .7;
-    font-size: 1.2em;
 }
 
 p {
@@ -370,7 +369,7 @@ hr {
 #write {
     position: static;
     width: 90%;
-    max-width: 1000px;
+    max-width: 900px;
     line-height: 1.6;
     transform: none;
 }
@@ -390,7 +389,6 @@ hr {
 }
 
 #write h1 {
-    font-size: 2.2rem;
     margin: 1rem 0;
 }
 
@@ -400,7 +398,6 @@ hr {
 }
 
 #write h2 {
-    font-size: 1.9rem;
     margin: .7rem 0;
 }
 
@@ -410,7 +407,6 @@ hr {
 }
 
 #write h3 {
-    font-size: 1.5rem;
     margin: .5rem 0;
 }
 
@@ -420,7 +416,6 @@ hr {
 }
 
 #write h4 {
-    font-size: 1.4rem;
     margin: .2rem 0;
 }
 
@@ -430,7 +425,6 @@ hr {
 }
 
 #write h5, #write h6 {
-    font-size: 1.3rem;
     margin: 0;
 }
 
@@ -440,7 +434,6 @@ hr {
 
 #write h6::before {
     content: 'H6';
-    opacity: 0.7;
 }
 
 #write > h1.md-focus::before,

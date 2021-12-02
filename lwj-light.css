@@ -82,7 +82,7 @@
     --md-char-color: #b19d7b;
     --meta-content-color: #473c32;
     --table-border-color: #d8b77f;
-    --select-text-bg-color: rgba(95, 192, 110, 0.6);
+    --select-text-bg-color: rgba(167, 192, 170, 0.6);
     --primary-color: #429b4f;
     --primary-btn-border-color: #4e8d54;
     --side-bar-bg-color: #f4f4f4;
@@ -204,7 +204,7 @@ hr {
 #write {
     position: static;
     width: 90%;
-    max-width: 1000px;
+    max-width: 900px;
     line-height: 1.6;
     transform: none;
 }
@@ -667,7 +667,7 @@ hr {
 
 .cm-s-inner .CodeMirror-gutters {
     background: #f5f5f5;
-    border-right: 0px;
+    border-right: 0;
 }
 
 .cm-s-inner .CodeMirror-guttermarker {
@@ -704,7 +704,7 @@ hr {
 }
 
 .cm-s-inner span.cm-keyword {
-    color: #ac4142;
+    color: #af3638;
     font-style: italic;
 }
 
@@ -713,7 +713,7 @@ hr {
 }
 
 .cm-s-inner span.cm-variable {
-    color: #099f66;
+    color: #c78a00;
 }
 
 .cm-s-inner span.cm-variable-2 {
@@ -747,7 +747,7 @@ hr {
 }
 
 .md-fences.md-focus .cm-s-inner .CodeMirror-activeline-background {
-    background: #DDDCDC;
+    background: #DCDCDC;
 }
 
 .cm-s-inner .CodeMirror-matchingbracket {
