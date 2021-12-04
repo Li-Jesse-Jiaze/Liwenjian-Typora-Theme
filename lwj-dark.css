@@ -80,14 +80,14 @@
     font-family: 'Operator Mono';
     font-style: normal;
     font-weight: normal;
-    src: local("Operator Mono Regular"), url("./Liwenjian/OperatorMono-Medium.otf") format("otf");
+    src: local("Operator Mono Regular"), url("./Liwenjian/OperatorMono-Medium.woff") format("woff");
 }
 
 @font-face {
     font-family: 'Operator Mono';
     font-style: italic;
     font-weight: normal;
-    src: local("Operator Mono Italic"), url("./Liwenjian/OperatorMono-MediumItalic.otf") format("otf");
+    src: local("Operator Mono Italic"), url("./Liwenjian/OperatorMono-MediumItalic.woff") format("woff");
 }
 
 /* CodeMirror Dracula theme */
